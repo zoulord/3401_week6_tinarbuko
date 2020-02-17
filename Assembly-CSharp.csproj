@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6441518C-0705-6796-E38F-3CBB931FE367}</ProjectGuid>
+    <ProjectGuid>{A9DAAF9A-A7A7-078C-3164-E0AEA5610011}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,37 +66,37 @@
     <Compile Include="Assets\Script\DogandCuimove.cs" />
     <Compile Include="Assets\Script\Obstaclespawner.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/zt421918/Tinarbuko_GameDev3401/Week6_3401_Tinarbuko/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/zt421918/3401_week6_tinarbuko/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/zt421918/Tinarbuko_GameDev3401/Week6_3401_Tinarbuko/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/zt421918/3401_week6_tinarbuko/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/zt421918/Tinarbuko_GameDev3401/Week6_3401_Tinarbuko/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/zt421918/3401_week6_tinarbuko/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/zt421918/Tinarbuko_GameDev3401/Week6_3401_Tinarbuko/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/zt421918/3401_week6_tinarbuko/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/zt421918/Tinarbuko_GameDev3401/Week6_3401_Tinarbuko/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/zt421918/3401_week6_tinarbuko/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/zt421918/Tinarbuko_GameDev3401/Week6_3401_Tinarbuko/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/zt421918/3401_week6_tinarbuko/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/zt421918/Tinarbuko_GameDev3401/Week6_3401_Tinarbuko/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/zt421918/3401_week6_tinarbuko/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/zt421918/Tinarbuko_GameDev3401/Week6_3401_Tinarbuko/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/zt421918/3401_week6_tinarbuko/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/zt421918/Tinarbuko_GameDev3401/Week6_3401_Tinarbuko/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/zt421918/3401_week6_tinarbuko/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/zt421918/Tinarbuko_GameDev3401/Week6_3401_Tinarbuko/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/zt421918/3401_week6_tinarbuko/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/zt421918/Tinarbuko_GameDev3401/Week6_3401_Tinarbuko/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/zt421918/3401_week6_tinarbuko/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
