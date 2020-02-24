@@ -64,7 +64,9 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Chagas.cs" />
     <Compile Include="Assets\Script\DogandCuimove.cs" />
+    <Compile Include="Assets\Script\increaseScore.cs" />
     <Compile Include="Assets\Script\Obstaclespawner.cs" />
+    <Compile Include="Assets\Script\score.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/zt421918/3401_week6_tinarbuko/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

@@ -8,7 +8,11 @@ public class Chagas : MonoBehaviour
     public Rigidbody2D chagasRigidbody;
     public float flapForce;
     public GameObject gameoverUI;
-    public AudioSource buttonAudioSource;
+    public AudioSource clickPlay;
+    public AudioSource backgroundPlay;
+    public AudioSource gameoverPlay;
+    public AudioSource scorePlay;
+   
 
     int score = 0;
 
@@ -28,6 +32,7 @@ public class Chagas : MonoBehaviour
             //chagasRigidbody.AddForce(Vector2.up * flapForce);
 
             chagasRigidbody.velocity = Vector2.up * flapForce;
+            clickPlay.Play();
         }
     }
 
@@ -38,11 +43,14 @@ public class Chagas : MonoBehaviour
         {
             score += 1;
             Debug.Log(score);
+            scorePlay.Play();
         }
         else
         {
 
             gameoverUI.SetActive(true);
+            backgroundPlay.Stop();
+            gameoverPlay.Play();
             Time.timeScale = 0;
         }
 
@@ -53,18 +61,8 @@ public class Chagas : MonoBehaviour
     public void OnRestartButtonPressed ()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("TinarbukoScene");
     }
 
-    public void PlaySound()
-    {
-        if (buttonAudioSource.isPlaying)
-        {
-            buttonAudioSource.Stop();
-        }
-        else
-        {
-            buttonAudioSource.Play();
-        }
-    }
+  
 }
