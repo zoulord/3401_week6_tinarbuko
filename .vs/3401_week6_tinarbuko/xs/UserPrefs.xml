@@ -1,7 +1,10 @@
 ﻿<Properties StartupConfiguration="{A9DAAF9A-A7A7-078C-3164-E0AEA5610011}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Chagas.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/DogandCuimove.cs">
     <Files>
-      <File FileName="Assets/Script/Chagas.cs" Line="1" Column="1" />
+      <File FileName="../3401_week5_tinarbuko/UI_Basics/Assets/Scripts/ButtonBehaviour.cs" Line="11" Column="4" />
+      <File FileName="Assets/Script/Chagas.cs" Line="65" Column="13" />
+      <File FileName="Assets/Script/SoundManager.cs.meta" Line="5" Column="40" />
+      <File FileName="Assets/Script/DogandCuimove.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

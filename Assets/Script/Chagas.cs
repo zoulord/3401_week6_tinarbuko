@@ -8,6 +8,7 @@ public class Chagas : MonoBehaviour
     public Rigidbody2D chagasRigidbody;
     public float flapForce;
     public GameObject gameoverUI;
+    public AudioSource buttonAudioSource;
 
     int score = 0;
 
@@ -53,5 +54,17 @@ public class Chagas : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene("SampleScene");
+    }
+
+    public void PlaySound()
+    {
+        if (buttonAudioSource.isPlaying)
+        {
+            buttonAudioSource.Stop();
+        }
+        else
+        {
+            buttonAudioSource.Play();
+        }
     }
 }
